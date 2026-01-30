@@ -1,10 +1,36 @@
-body {
-    background-color: white;
+html{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
 }
+body {
+    background-color: rgb(171, 230, 255);
+    height: 90%;
+}
+
 h1 {
     text-align: center;
 }
+
 img {
     display: block;
     margin: auto;
+}
+#wrapper {
+    background-color: lightgreen;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+header{
+    background-color: #ffed7a;
+    padding: 1rem;
+}
+main{
+    background-color: rgb(149, 197, 255);
+    padding: 1rem;
+    flex: 1;
+}
+footer{
+    background-color: rgb(5, 193, 255);
+    padding: 1rem;
 }
